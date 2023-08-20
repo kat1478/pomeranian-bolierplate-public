@@ -16,7 +16,6 @@
     padding: 18px 24px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
     align-self: stretch;
     border-radius: 8px;
     border-left: 5px solid var(--gray-300, #C8CBD1);
@@ -31,8 +30,15 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 34px; /* 188.889% */
+    line-height: 188.889%;
     flex: 1 0 0;
+    display: flex;
+padding: 18px 24px;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+width: fixed;
+height: fixed;
 }
 .faq-answer {
     align-self: stretch;
@@ -41,5 +47,7 @@ font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 177.778% */
+line-height: 177.778%;
+width: 100%;
+height: auto;
 }
