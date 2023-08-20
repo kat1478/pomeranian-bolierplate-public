@@ -18,7 +18,7 @@ export function Exercise() {
     <div className="array-rendering">
       <ul>
         {cars.map(function (car) {
-          return <li>{car}</li>;
+          return <li key={car}>{car}</li>;
         })}
       </ul>
     </div>
